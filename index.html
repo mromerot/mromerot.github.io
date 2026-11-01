@@ -11,14 +11,14 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Mauricio Romero Torres">
 <meta property="og:description" content="Gestor de ciencia y tecnología. Gestión del riesgo de desastres, cambio climático y ciencia de datos.">
-<meta property="og:url" content="https://mromerot.github.io/hub/">
+<meta property="og:url" content="https://mromerot.github.io/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 87'%3E%3Cpolygon points='25,0 75,0 100,43.5 75,87 25,87 0,43.5' fill='%23E77500'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:wght@400;500&family=Fira+Code:wght@400;500&display=swap">
 <style>
 /* Layout: a full-bleed flat-top honeycomb (axial q, r). The intro sits on a dimmed
-   clearing at left; the link cells form a pinwheel around the empty centre cell (0, 0)
+   clearing at left; the link cells form a ring around the empty centre cell (0, 0)
    at right; a map-style status bar reads out the cell under the cursor. */
 :root {
   --gap: #0D0618;        /* mortar between cells */
@@ -315,12 +315,7 @@ html:not(.js) .status { display: none; }
     </a>
     <a class="cell link" data-q="0" data-r="1" href="https://mromerot.github.io/data.science/"
        data-desc="Herramientas de ciencia de datos.">
-      <span class="face"><span class="label">Ciencia de datos</span><span class="sub">Herramientas</span></span>
-      <svg class="ring" viewBox="0 0 200 173.205" aria-hidden="true"><polygon points="190,86.6 145,164.54 55,164.54 10,86.6 55,8.66 145,8.66"/></svg>
-    </a>
-    <a class="cell link" data-q="-1" data-r="1" href="https://mromerot.github.io/sitio-evento/"
-       data-desc="Plataforma Nacional para la Gestión del Riesgo de Desastres 2026.">
-      <span class="face"><span class="label">Plataforma GRD</span><span class="sub">2026</span></span>
+      <span class="face"><span class="label">Ciencia de datos</span><span class="sub">data.science</span></span>
       <svg class="ring" viewBox="0 0 200 173.205" aria-hidden="true"><polygon points="190,86.6 145,164.54 55,164.54 10,86.6 55,8.66 145,8.66"/></svg>
     </a>
     <a class="cell link" data-q="-1" data-r="0" href="https://github.com/mromerot"
@@ -333,12 +328,12 @@ html:not(.js) .status { display: none; }
       <span class="face"><span class="label">Scholar</span><span class="sub">Publicaciones</span></span>
       <svg class="ring" viewBox="0 0 200 173.205" aria-hidden="true"><polygon points="190,86.6 145,164.54 55,164.54 10,86.6 55,8.66 145,8.66"/></svg>
     </a>
-    <a class="cell link" data-q="2" data-r="-1" href="https://www.linkedin.com/in/mauricio-romero-torres-1b33b95/"
+    <a class="cell link" data-q="1" data-r="1" href="https://www.linkedin.com/in/mauricio-romero-torres-1b33b95/"
        data-desc="Trayectoria profesional en LinkedIn.">
       <span class="face"><span class="label">LinkedIn</span><span class="sub">Trayectoria</span></span>
       <svg class="ring" viewBox="0 0 200 173.205" aria-hidden="true"><polygon points="190,86.6 145,164.54 55,164.54 10,86.6 55,8.66 145,8.66"/></svg>
     </a>
-    <a class="cell link" data-q="-1" data-r="2" href="https://x.com/mauricioromerot"
+    <a class="cell link" data-q="-1" data-r="1" href="https://x.com/mauricioromerot"
        data-desc="Notas y enlaces en X.">
       <span class="face"><span class="label">X</span><span class="sub">@mauricioromerot</span></span>
       <svg class="ring" viewBox="0 0 200 173.205" aria-hidden="true"><polygon points="190,86.6 145,164.54 55,164.54 10,86.6 55,8.66 145,8.66"/></svg>
@@ -417,7 +412,7 @@ html:not(.js) .status { display: none; }
     const vw = stage.clientWidth;
     const vh = window.innerHeight;
     const wide = vw >= 880;
-    R = wide ? clamp(Math.min(vw * 0.045, vh * 0.084), 50, 78) : clamp((vw - 32) / 6.7, 40, 58);
+    R = wide ? clamp(Math.min(vw * 0.045, vh * 0.084), 50, 78) : clamp((vw - 32) / 5.4, 40, 58);
     GAP = R > 56 ? 4 : 3;
     const rr = R - GAP / 2;
     const cw = 2 * rr, ch = SQ3 * rr;

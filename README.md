@@ -1,4 +1,4 @@
-# hub
+# mromerot.github.io
 
 Página de inicio personal de Mauricio Romero Torres: un panal de hexágonos violeta en el que las celdas naranjas (naranja Princeton, `#E77500`) son enlaces a mis sitios y perfiles.
 
@@ -20,4 +20,6 @@ Las seis celdas vecinas de `(0, 0)` son `(0,-1)`, `(1,-1)`, `(1,0)`, `(0,1)`, `(
 
 ## Publicar
 
-En GitHub: **Settings → Pages → Build and deployment → Deploy from a branch**, rama `main`, carpeta `/ (root)`. La página queda en `https://mromerot.github.io/hub/`.
+Este repositorio es el sitio de usuario de GitHub Pages: lo que esté en la rama `main` se publica en `https://mromerot.github.io/`. Si no se publica solo, actívalo en **Settings → Pages → Deploy from a branch**, rama `main`, carpeta `/ (root)`.
+
+Los demás sitios (`/web/`, `/SIDRo/`, `/leticia/`, `/data.science/`) siguen publicándose desde sus propios repositorios.
