@@ -2,11 +2,11 @@
 
 Página de inicio personal de Mauricio Romero Torres: un panal de hexágonos violeta en el que las celdas naranjas (naranja Princeton, `#E77500`) son enlaces a mis sitios y perfiles.
 
-Es un solo archivo, `index.html`, sin dependencias ni paso de compilación. La foto es `profile.jpeg`.
+Es un solo archivo, `index.html`, sin dependencias ni paso de compilación.
 
 ## Editar los enlaces
 
-Cada celda-enlace es un `<a class="cell link">` dentro de `<nav class="cluster">`. Su posición en el panal la dan las coordenadas axiales `data-q` y `data-r`; la foto ocupa la celda `(0, 0)`.
+Cada celda-enlace es un `<a class="cell link">` dentro de `<nav class="cluster">`. Su posición en el panal la dan las coordenadas axiales `data-q` y `data-r`; la celda central `(0, 0)` queda vacía, como parte del panal.
 
 ```html
 <a class="cell link" data-q="1" data-r="-1" href="https://mromerot.github.io/SIDRo/"
