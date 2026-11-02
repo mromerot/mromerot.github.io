@@ -22,4 +22,4 @@ Las seis celdas vecinas de `(0, 0)` son `(0,-1)`, `(1,-1)`, `(1,0)`, `(0,1)`, `(
 
 Este repositorio es el sitio de usuario de GitHub Pages: lo que esté en la rama `main` se publica en `https://mromerot.github.io/`. Si no se publica solo, actívalo en **Settings → Pages → Deploy from a branch**, rama `main`, carpeta `/ (root)`.
 
-Los demás sitios (`/web/`, `/SIDRo/`, `/leticia/`, `/data.science/`) siguen publicándose desde sus propios repositorios.
+Los demás sitios (`/web/`, `/SIDRo/`, `/leticia/`, `/sincelejo/`, `/data.science/`) siguen publicándose desde sus propios repositorios.
